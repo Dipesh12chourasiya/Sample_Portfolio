@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(6, 43, 107);
+    /* background-image: url(back.jpeg); */
+    /* background-repeat: no-repeat; */
+    /* position: absolute; */
+    height: 100vh;
+    width: 100%;
+    /* background-size: cover; */
+    /* background-position: unset; */
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(0, 0, 0);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+    color: rgb(146, 223, 240);
+    font-size: 20.4px;
+}
+
+.left {
+    font-size: xx-large;
+    font-weight: 850;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    margin: 80px 0;
+}
+
+.firstSection>div {
+    width: 30%;
+    color: white;
+}
+
+.leftSection {
+    font-size: 3rem;
+    margin: 70px 0;
+}
+
+.leftSection .btn {
+    padding: 10px;
+    color: white;
+    background: black;
+    border: 2px solid gray;
+    border-radius: 5px;
+    top: 20px;
+    position: relative;
+    left: -27px;
+    margin: 25px;
+}
+
+.leftSection .btn:hover {
+    border: 2px solid chartreuse;
+}
+
+/* .rightSection {} */
+
+.rightSection img {
+    width: 136%;
+    margin: -55px -75px;
+}
+
+.purple {
+    color: rgb(82, 177, 249);
+}
+
+.text-gray {
+    position: relative;
+    top: -32px;
+    color: gray;
+}
+
+#element {
+    color: rgb(82, 177, 249);
+}
+
+.secondSection {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+
+hr {
+    background-color: black;
+    position: relative;
+    top: -64px;
+}
+
+.secondSection h1 {
+    position: relative;
+    bottom: 27px;
+    color: white;
+    font-size: 1.9pxS;
+}
+
+.secondSection .box {
+    background: white;
+    width: 80vw;
+    height: 2px;
+    margin: 13px 0;
+    display: flex;
+}
+
+.secondSection .verticle {
+    height: 94px;
+    width: 1px;
+    background-color: white;
+    margin: 0 120px;
+}
+
+.image-top {
+    width: 30px;
+    position: relative;
+    top: -21px;
+    left: 0px;
+}
+
+.verticle-title {
+    font-weight: 600;
+    color: white;
+    position: relative;
+    top: 73px;
+    width: 150px;
+}
+
+.verticle-desc {
+    position: relative;
+    top: 73px;
+    color: gray;
+    width: 150px;
+    font-size: 10px;
+}
+
+footer {
+    background-color: black;
+}
+
+.footer {
+    display: flex;
+    padding: 23px 122px;
+    color: white;
+    justify-content: space-evenly;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer>div {
+    width: 240px;
+}
